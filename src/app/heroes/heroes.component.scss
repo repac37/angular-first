@@ -32,6 +32,7 @@
   background-color: black;
   color: white;
 }
+
 .heroes .badge {
   display: inline-block;
   font-size: small;
@@ -47,9 +48,17 @@
   border-radius: 4px 0 0 4px;
 }
 
-input {
-  padding: .5rem;
+.star{
+  color: black;
+  font-size: large;
 }
+
+.heroes li.selected .star,
+.heroes li.selected:hover .star,
+.heroes li.selected:active .star{
+  color:  white;
+}
+
 
 
 /*
